@@ -1,0 +1,35 @@
+.main{
+    background: url("/imagenes/mapa.jpg");   
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+ }
+ .seccion1{
+    text-align: center;
+    font-size: 4rem;
+    text-transform: uppercase;
+    font-family: 'Crimson Text', serif;
+ }
+ .seccion2{
+    display: flex;
+    justify-content: space-around
+ }
+ .regiones{
+    height: 14rem;
+    margin-top: 4rem;
+ }
+ .link-video{
+    display: flex;
+    justify-content: space-around;
+ }
+ .video{
+    margin-top: 2rem;
+    height: 8rem;
+    border-radius: 100%;
+    display: flex;
+    display: block;
+ }
+ .seccion3{
+    display: flex;
+    justify-content: space-around
+ }

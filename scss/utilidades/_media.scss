@@ -1,0 +1,145 @@
+@media (max-width: 1165px) {
+ 
+    .titulo {
+       height: 286px;
+       width: 772px;
+       margin-top: 76px;
+       border-radius: 27px;
+    }
+ 
+    .texto {
+       padding: 15px;
+       width: 732px;
+       background-color: rgba(214, 209, 209, 0.726);
+       border-radius: 17px;
+    }
+ 
+    .container {
+       text-align: center;
+       padding: 6px;
+       display: grid;
+       grid-template-columns: 381px 381px;
+       grid-template-rows: 1fr 1fr;
+    }
+ 
+    .container img {
+       width: 368px;
+       border-radius: 23px;
+    }
+ 
+    .personajes {
+       text-align: center;
+       display: grid;
+       grid-template-columns: 168px 168px 168px 168px;
+    }
+ }
+ 
+ @media (max-width: 768px) {
+    header {
+      background-color: rgba(27, 27, 25, 0.644);
+       height: 4rem;
+       width: 100%;
+    }
+    .logo {
+       height: 61px;
+       margin-left: 5px;
+       position: fixed;
+    }
+    .flex-container {
+       display: flex;
+       justify-content: flex-end;
+    }
+   
+    .titulo {
+       height: 233px;
+       width: 636px;
+       margin-top: 76px;
+       border-radius: 27px;
+    }
+ 
+    .texto {
+       padding: 15px;
+       width: 711px;
+       background-color: rgba(214, 209, 209, 0.726);
+       border-radius: 17px;
+    }
+ 
+    .container {
+       text-align: center;
+       padding: 6px;
+       display: grid;
+       grid-template-columns: 381px;
+       grid-template-rows: 1fr 1fr;
+       justify-items: center;
+    }
+ 
+    .container img {
+       width: 460px;
+       border-radius: 23px;
+    }
+ 
+    .personajes {
+       text-align: center;
+       display: grid;
+       grid-template-columns: 168px 168px 168px;
+    }
+    .personajes img{
+       width: 158px;
+    }
+ }
+ @media (max-width: 425px) {
+    header {
+      background-color: rgba(27, 27, 25, 0.644);
+       height: 8rem;
+       width: 100%;
+       display: flex;
+       align-items: flex-end;
+    }
+    .logo {
+       height: 61px;
+       margin-left: 5px;
+       position: fixed;
+       margin-top: -122px;
+    }
+    .flex-container {
+       display: flex;
+       justify-content: flex-end;
+    }
+    
+    .titulo {
+       height: 181px;
+       width: 390px;
+       margin-top: 76px;
+       border-radius: 27px;
+    }
+ 
+    .texto {
+       padding: 15px;
+       width: 389px;
+       background-color: rgba(214, 209, 209, 0.726);
+       border-radius: 17px;
+    }
+ 
+    .container {
+       text-align: center;
+       padding: 6px;
+       display: grid;
+       grid-template-columns: 381px;
+       grid-template-rows: 1fr 1fr;
+       justify-items: center;
+    }
+ 
+    .container img {
+       width: 399px;
+       border-radius: 23px;
+    }
+ 
+    .personajes {
+       text-align: center;
+       display: grid;
+       grid-template-columns: 168px 168px;
+    }
+    .personajes img{
+       width: 142px;
+    }
+ }
