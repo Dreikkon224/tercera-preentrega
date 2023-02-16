@@ -1,10 +1,10 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
     <link rel="stylesheet" href="/css/style.css">
     <title>Liyue</title>
 </head>
@@ -30,7 +30,7 @@
     <main class="fondo_L">
         <article class="informacion">
             <div>
-                <img src="/imagenes/regiones/liyue/fondo_titulo_L.jpeg" class="titulo">
+                <img src="/imagenes/regiones/liyue/fondo_titulo_L.jpeg" class="titulo animate_animated animate__fadeInDown">
             </div>
             <br><br>
             <div>
@@ -70,35 +70,17 @@
             <h1>Sub Regiones</h1>
             <br>
             <div class="container">
-                <div>
-                    <h3>Llanura Bishui</h3>
-                    <img src="/imagenes/regiones/liyue/llanura_bishui.jpeg">
-                </div>
-                <div>
-                    <h3>Minlin</h3>
-                    <img src="/imagenes/regiones/liyue/minlin.jpeg">
-                </div>
-                <div>
-                    <h3>Estuario Chiongji</h3>
-                    <img src="/imagenes/regiones/liyue/estuario_chiongji.jpeg">
-                </div>
-                <div>
-                    <h3>Lisha</h3>
-                    <img src="/imagenes/regiones/liyue/lisha.jpeg">
-                </div>
-                <div>
-                    <h3>Mar de Nubes</h3>
-                    <img src="/imagenes/regiones/liyue/mar_de_nubes.jpeg">
-                </div>
-                <div>
-                    <h3>Sima</h3>
-                    <img src="/imagenes/regiones/liyue/sima.jpeg">
-                </div>
+                <div class="wow animacion animate_animated animate__zoomIn"><h3>Llanura Bishui</h3><img src="/imagenes/regiones/liyue/llanura_bishui.jpeg"></div>
+                <div class="wow animacion animate_animated animate__zoomIn"><h3>Minlin</h3><img src="/imagenes/regiones/liyue/minlin.jpeg"></div>
+                <div class="wow animacion animate_animated animate__zoomIn"><h3>Estuario Chiongji</h3><img src="/imagenes/regiones/liyue/estuario_chiongji.jpeg"></div>
+                <div class="wow animacion animate_animated animate__zoomIn"><h3>Lisha</h3><img src="/imagenes/regiones/liyue/lisha.jpeg"></div>
+                <div class="wow animacion animate_animated animate__zoomIn"><h3>Mar de Nubes</h3><img src="/imagenes/regiones/liyue/mar_de_nubes.jpeg"></div>
+                <div class="wow animacion animate_animated animate__zoomIn"><h3>Sima</h3><img src="/imagenes/regiones/liyue/sima.jpeg"></div>
             </div>
             <br><br>
             <h2>Personajes Jugables</h2>
             <br>
-            <div class="personajes">
+            <div class="personajes wow animate_animated animate__shakeX">
                 <div>
                     <h3>Beidou</h3><img src="/imagenes/personajes/liyue/beidou.jpg">
                 </div>
@@ -165,6 +147,8 @@
             <a href="https://genshin.hoyoverse.com/es/home" target="_blank"><img src="/imagenes/genshin-logo.png"></a>
         </div>
     </footer>
-</body>
 
+    <script src="../js/wow.js"></script>
+    <script>new WOW().init();</script>
+</body>
 </html>

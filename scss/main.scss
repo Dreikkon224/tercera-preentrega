@@ -1,10 +1,16 @@
 @import "./utilidades/reset";
 @import "./utilidades/tipografias";
+
+// cuerpo
 @import "./utilidades/header";
 @import "./utilidades/mainn";
 @import "./utilidades/footer";
+
+// secciones
 @import "./secciones/mondstadt";
 @import "./secciones/liyue";
 @import "./secciones/inazuma";
 @import "./secciones/sumeru";
+
+// medidas
 @import "./utilidades/media"

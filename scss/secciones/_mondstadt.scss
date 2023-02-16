@@ -12,16 +12,17 @@
     width: 764px;
     margin-top: 76px;
     border-radius: 27px;
-    animation: fadeInDown;
     animation-duration: 3s;
  }
  
  .texto {
+   color: white;
     padding: 14px;
     width: 867px;
-    background-color: rgba(153, 152, 152, 0.692);
+    background-color: rgba(94, 94, 94, 0.692);
     border-radius: 17px;
     font-family: $regular;
+    font-size: 18px;
  }
  
  .informacion h1 {
@@ -33,8 +34,10 @@
     padding: 6px;
     display: grid;
     grid-template-columns: 381px 381px 381px;
-    animation:fadeIn;
-    animation-duration: 3.5s;
+ }
+
+ .animacion{
+   animation-duration: 3.5s;
  }
  
  .container img {
@@ -46,8 +49,7 @@
     text-align: center;
     display: grid;
     grid-template-columns: 168px 168px 168px 168px 168px 168px 168px;
-    animation: shakeX;
-    animation-duration: 3.5s;
+    animation-duration: 2s;
  }
  
  .personajes img {
