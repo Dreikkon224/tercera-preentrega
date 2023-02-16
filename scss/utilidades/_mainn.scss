@@ -13,14 +13,11 @@
    background-size: cover;
    background-position: center;
    background-repeat: no-repeat;
-   display: flex;
-   flex-direction: column;
-   align-items: center;
-}
+ }
 
  .titulo_M{
    color: white;
-   margin-top: 42px;
+   text-align: center;
  }
  .texto_M{
    padding: 14px;
@@ -28,16 +25,13 @@
    background-color: rgba(206, 205, 205, 0.849);
    border-radius: 17px;
 }
- .seccion1{
-    text-align: center;
-    font-size: 4rem;
-    text-transform: uppercase;
-    font-family: 'Crimson Text', serif;
- }
- .seccion2{
-    display: flex;
-    justify-content: space-around
- }
+.seccion {
+   display: grid;
+   grid-auto-columns: 1fr;
+   grid-template-columns: 1fr 1fr;
+   grid-template-rows: 1fr 1fr;
+   justify-items: center;
+}
  .regiones{
     height: 14rem;
     margin-top: 4rem;
