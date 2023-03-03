@@ -42,16 +42,10 @@
 }
 
 @media (max-width: 768px) {
-   header {
-      background-color: rgba(27, 27, 25, 0.644);
-      height: 4rem;
-      width: 100%;
-   }
-
+ 
    .logo {
       height: 61px;
       margin-left: 5px;
-      position: fixed;
    }
 
    .flex-container {
@@ -83,8 +77,8 @@
    .seccion {
       display: grid;
       grid-auto-columns: 1fr;
-      grid-template-columns: 1fr 1fr;
-      grid-template-rows: 1fr 1fr;
+      grid-template-columns: 1fr;
+      grid-template-rows: 1fr ;
    }
 
    .container {
@@ -124,19 +118,9 @@
       width: 100vw;
    }
 
-   header {
-      background-color: rgba(27, 27, 25, 0.644);
-      display: flex;
-      align-items: center;
-      margin: 0%;
-      padding: 0%;
-   }
-
    .logo {
       height: 61px;
       margin-left: 5px;
-      display: block;
-      position: fixed;
    }
 
    .flex-container {
@@ -168,8 +152,8 @@
    .seccion {
       display: grid;
       grid-auto-columns: 1fr;
-      grid-template-columns: 1fr 1fr;
-      grid-template-rows: 1fr 1fr;
+      grid-template-columns: 1fr ;
+      grid-template-rows: 1fr ;
    }
 
    .container {

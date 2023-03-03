@@ -1,5 +1,5 @@
 .informacion_M{
-    background: url("/imagenes/prueba-4.jpg");   
+    background: url("/imagenes/1--2.jpg");   
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -36,17 +36,10 @@
     height: 14rem;
     margin-top: 4rem;
  }
- .link-video{
-    display: flex;
-    justify-content: space-around;
- }
- .video{
-    margin-top: 2rem;
-    height: 8rem;
-    border-radius: 100%;
-    display: flex;
-    display: block;
- }
+.regiones:hover{
+   transform: scale(1.3);
+   transition: 1s transform;
+}
  .seccion3{
     display: flex;
     justify-content: space-around

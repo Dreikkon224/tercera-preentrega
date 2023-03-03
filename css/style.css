@@ -4,16 +4,10 @@
   padding: 0;
   list-style: none; }
 
-header {
-  background-color: rgba(27, 27, 25, 0.644);
-  height: 4rem;
-  width: 100%; }
-
 .logo {
   height: 61px;
   margin-left: 5px;
-  position: fixed;
-  display: inline; }
+  margin-top: 0px; }
 
 ul {
   font-size: 25px; }
@@ -30,7 +24,7 @@ a {
   text-decoration: none; }
 
 .informacion_M {
-  background: url("/imagenes/prueba-4.jpg");
+  background: url("/imagenes/1--2.jpg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -65,23 +59,16 @@ a {
   height: 14rem;
   margin-top: 4rem; }
 
-.link-video {
-  display: flex;
-  justify-content: space-around; }
-
-.video {
-  margin-top: 2rem;
-  height: 8rem;
-  border-radius: 100%;
-  display: flex;
-  display: block; }
+.regiones:hover {
+  transform: scale(1.3);
+  transition: 1s transform; }
 
 .seccion3 {
   display: flex;
   justify-content: space-around; }
 
-.pie {
-  background-color: rgba(0, 0, 0, 0.61); }
+.pie-de-pagina {
+  background-color: #41464a; }
 
 .titulo__footer {
   display: flex;
@@ -215,14 +202,9 @@ a {
     grid-template-columns: 168px 168px 168px 168px; } }
 
 @media (max-width: 768px) {
-  header {
-    background-color: rgba(27, 27, 25, 0.644);
-    height: 4rem;
-    width: 100%; }
   .logo {
     height: 61px;
-    margin-left: 5px;
-    position: fixed; }
+    margin-left: 5px; }
   .flex-container {
     display: flex;
     justify-content: flex-end; }
@@ -244,8 +226,8 @@ a {
   .seccion {
     display: grid;
     grid-auto-columns: 1fr;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr 1fr; }
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr; }
   .container {
     text-align: center;
     padding: 6px;
@@ -273,17 +255,9 @@ a {
     flex-direction: column;
     align-items: center;
     width: 100vw; }
-  header {
-    background-color: rgba(27, 27, 25, 0.644);
-    display: flex;
-    align-items: center;
-    margin: 0%;
-    padding: 0%; }
   .logo {
     height: 61px;
-    margin-left: 5px;
-    display: block;
-    position: fixed; }
+    margin-left: 5px; }
   .flex-container {
     display: flex;
     justify-content: flex-end; }
@@ -305,8 +279,8 @@ a {
   .seccion {
     display: grid;
     grid-auto-columns: 1fr;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr 1fr; }
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr; }
   .container {
     text-align: center;
     padding: 6px;

@@ -16,20 +16,36 @@
 
 <body>
     <header>
-        <nav class="header__nav">
-
-            <img src="/imagenes/Sin título-1.gif" class="logo">
-
-            <ul class="flex-container">
-
-                <li><button type="button" class="btn btn-outline-primary"><a href="../index.html">Inicio</a></button></li>
-                <li><button type="button" class="btn btn-outline-primary"><a href="/regiones/mondstadt.html">Mondstadt</a></button></li>
-                <li><button type="button" class="btn btn-outline-primary"><a href="/regiones/liyue.html">Liyue</a></button></li>
-                <li><button type="button" class="btn btn-outline-primary"><a href="/regiones/sumeru.html">Sumeru</a></button></li>
-
-            </ul>
-
-        </nav>
+        <header>
+            <nav class="navbar navbar-expand-lg bg-secondary">
+                <div class="container-fluid">
+                  <a class="navbar-brand" href="../index.html"><img src="/imagenes/Sin título-1.gif" class="logo"></a>
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                      <li class="nav-item">
+                        <a class="nav-link" href="/regiones/mondstadt.html">Mondstadt</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="/regiones/liyue.html">Liyue</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="/regiones/inazuma.html">Inazuma</a>
+                      </li>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="/regiones/sumeru.html">Sumeru</a>
+                      </li>
+                    </ul>
+                    <form class="d-flex" role="search">
+                      <input class="form-control me-2" type="search" placeholder="Buscador" aria-label="Search">
+                    </form>
+                  </div>
+                </div>
+              </nav>
+        </header>
     </header>
 
     <main class="fondo_I">
@@ -146,7 +162,7 @@
         </article>
     </main>
 
-    <footer class="pie">
+    <footer class="pie-de-pagina">
 
         <h3 class="titulo__footer">
             paginas oficiales del juego
